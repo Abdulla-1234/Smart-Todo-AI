@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Core palette */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Brand */
+    --primary: 252 83% 60%; /* Violet brand */
+    --primary-foreground: 210 40% 98%;
+    --primary-variant: 275 80% 65%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 262 90% 66%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 252 83% 60%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 252 83% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 252 83% 60%;
+
+    /* Gradients & shadows */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-variant)) 60%);
+    --gradient-soft: radial-gradient(1200px 600px at 50% -10%, hsl(var(--primary) / 0.25), transparent 60%);
+
+    --shadow-elevated: 0 10px 30px -12px hsl(var(--primary) / 0.35);
+    --shadow-glow: 0 0 0 8px hsl(var(--primary) / 0.15);
+  }
+
+  .dark {
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 84% 6%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 84% 6%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 252 83% 66%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 262 90% 66%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 252 83% 66%;
+
+    --sidebar-background: 240 6% 10%;
+    --sidebar-foreground: 240 5% 96%;
+    --sidebar-primary: 252 83% 66%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 4% 16%;
+    --sidebar-accent-foreground: 240 5% 96%;
+    --sidebar-border: 240 4% 16%;
+    --sidebar-ring: 252 83% 66%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
