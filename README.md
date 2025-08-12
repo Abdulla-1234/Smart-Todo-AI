@@ -9,7 +9,8 @@ Features **Gemini 2.5 Flash** AI suggestions for **task priority**, **deadlines*
 ## Screenshots
 
 **Dashboard View**  
-<img width="1387" height="648" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/7202468b-56b1-4772-87cf-c5fc82aa84ad" />
+<img width="1392" height="682" alt="image" src="https://github.com/user-attachments/assets/35e3caa0-4ca6-48ea-82af-78fec4902d44" />
+
 ---
 
 ## Quick Start Commands
