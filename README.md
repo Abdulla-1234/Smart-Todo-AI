@@ -421,7 +421,7 @@ Future versions will include:
 **Developer:** D Mohammad Abdulla
 
 - 📧 **Email:** mohammadabdulla20march@gmail.com
-- 💼 **LinkedIn:** [Profile](https://linkedin.com/in/mohammad-abdulla)
+- 💼 **LinkedIn:** [Profile](https://www.linkedin.com/in/doodakula-mohammad-abdulla-8a3307258/)
 - 🐙 **GitHub:** [Profile](https://github.com/Abdulla-1234)
 
 ---
